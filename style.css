@@ -1,0 +1,32 @@
+.container {
+    height: 100vh;
+    min-width: 100%; 
+    overflow: auto;
+    text-align: center;
+}
+.form-control {    
+    max-width: 250px;
+    margin-right: 10px;
+}
+.form-inline {
+    display: flex; 
+    justify-content: center;       
+}
+.hidden {
+    display: none;
+}
+#gif-area { 
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 100px; 
+}
+.gif-item {
+    flex: 0 0 33.3333%;
+    padding: 10px;
+}
+.gif-item img {
+    width: 100%;
+}
+h1 {    
+    padding: 50px;    
+}
